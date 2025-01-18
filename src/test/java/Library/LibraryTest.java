@@ -35,6 +35,7 @@ public class LibraryTest {
     public void testIfBookTitleCaseInSenstive() {
         List<Book> results = library.search("lord of the Flies");
         assertEquals("matching Book", 1, results.size());
+        System.out.println("changes are made");
     }
 
     @Test
