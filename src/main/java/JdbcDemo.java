@@ -18,6 +18,7 @@ public class JdbcDemo {
            System.out.println("Employee name is:"+resultSet.getString(2));
            System.out.println("Employee address is:"+resultSet.getString(3));
            System.out.println("I have updated all the employee record");
+           System.out.println("I have done all the record");
        }
 
     }
